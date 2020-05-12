@@ -1,0 +1,26 @@
+.hu:hover{
+    color: coral;
+}
+.fu{
+    padding: 5px;
+    color:cyan;
+    text-align: right;
+    text-size-adjust: 8px;
+}
+.til:hover{
+    color: rgb(228, 231, 17);
+    text-shadow: 2px 2px 3px rgb(247, 111, 77);
+}
+.over{
+    overflow: scroll;
+}
+.com:hover{
+    text-decoration-color:orangered;
+
+}
+.min{
+    text-align: end;
+}
+.comm:hover{
+    background-color: black;
+}

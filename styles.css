@@ -1,0 +1,162 @@
+.rot{
+    border-block-end-width: 400px;
+    border: 1px tomato solid;
+    box-shadow: 2px 2px 8px rgb(40, 40, 53);   
+}
+.input{
+    background-blend-mode: luminosity;
+    box-align: initial;
+    
+} 
+.ads{
+    text-decoration-color: aqua;
+    text-decoration-style: solid;
+    background-color:darkkhaki;
+    border-block-end-color: blueviolet;
+    border-block-style: dashed;
+    border-block-end-style: dotted;
+
+}
+.game{
+   text-decoration-line: underline;
+   text-decoration-color: brown;
+   text-align: center;
+}
+.pass{
+    text-align: center;
+    
+}
+.sub{
+    text-align: center;
+}
+.cool{
+    display: flex;
+    justify-content:space-evenly;
+    padding:10px;
+    margin: 20px;
+    
+}
+.hop{
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    transition:border-bottom 0.5s;
+}
+.hop1{
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    transition:border-bottom 0.5s;
+}
+.hop:hover{
+    border-bottom-color: black;
+}
+.hop1:hover{
+    border-bottom-color: rgb(182, 14, 14);
+}
+.hop a{
+    height: 22px;
+    color: rgb(184, 190, 91);
+    text-decoration: none;
+    
+}
+.hop1 a{
+    height: 22px;
+    color: rgb(174, 143, 182);
+    text-decoration: none;
+    
+}
+.game{
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    transition: border bottom 0.3s;
+    text-shadow: 2px 2px 3px darkcyan;
+}
+.game a{
+    height: 22px;
+    color: blue;
+    text-decoration: none;
+}
+
+.game:hover{
+    background-color: rgb(159, 223, 217);
+    border-bottom-color: black;
+    text-decoration-color: black;
+}
+.cr{
+  background-image: cross-fade(s)
+}
+
+.image-text-wrapper{
+    filter: blur(8px)
+
+}
+.image-text-wrapper:hover
+{
+    filter: none
+
+}
+.rot2{
+    text-align: center;
+}
+.video{
+    padding: 5%;
+    align-content: flex-end;
+}
+.video{
+    filter: sepia(50)
+}
+.video :hover{
+  border: 1px tomato solid;
+  box-shadow: 2px 2px 8px rgb(40, 40, 53);
+  filter: none;
+  transition-delay:10ms; 
+}.video{
+  background-image: url("music.jpg");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.back{
+    background-image: url("party.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+    float: inline-start;
+}
+.heading{
+    text-align: center;
+    color: rgb(182, 211, 52);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition-delay: 10ms;
+    background-image: url("light.jpg");
+    background-color: #cccccc;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: darken;
+    margin: 1px;
+    
+}
+.txt1{
+    color: antiquewhite
+}
+.txt2{
+    color: cornflowerblue;
+}
+.heading:hover{
+    color: aqua;
+    transition-delay: 6ms;
+    color: rgb(247, 231, 231);
+    transition-delay: 5ms;
+    text-shadow: 2px 2px 3px rgb(247, 111, 77);
+    background-blend-mode: color-burn;
+}
