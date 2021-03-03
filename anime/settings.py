@@ -25,7 +25,7 @@ SECRET_KEY = '546tw!!5_sgyug9o%(bw3900y&zl_8eodn5ko0f@piv#go(jmw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://blogging-ap.herokuapp.com/']
 
 
 # Application definition
@@ -81,8 +81,7 @@ DATABASES = {
         'NAME': 'Romit',
         'USER':'postgres',
         'PASSWORD':'qwerty',
-        'HOST': 'blogging-ap.herokuapp.com'
-        'PORT': '8080'
+        'HOST': 'localhost'
     }
 }
 
