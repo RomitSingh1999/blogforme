@@ -7,5 +7,4 @@ django-ckeditor==5.4.0
 django-cleanup==2.1.0
 django-crispy-forms==1.7.2
 django-js-asset==1.0.0
-pytz==2018.9
 whitenoise==4.1.2
