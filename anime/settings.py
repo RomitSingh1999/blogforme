@@ -25,7 +25,7 @@ SECRET_KEY = '546tw!!5_sgyug9o%(bw3900y&zl_8eodn5ko0f@piv#go(jmw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['blog-forme.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -81,12 +81,13 @@ DATABASES = {
         'NAME': 'Romit',
         'USER':'postgres',
         'PASSWORD':'qwerty',
-        'HOST': 'localhost',
+        'HOST': 'blog-forme.herokuapp',
+        'PORT': '5432'
     }
 }
 
 
-# Password validation
+# Password validationheroku
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
