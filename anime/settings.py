@@ -81,7 +81,8 @@ DATABASES = {
         'NAME': 'Romit',
         'USER':'postgres',
         'PASSWORD':'qwerty',
-        'HOST': 'localhost'
+        'HOST': 'https://blogging-ap.herokuapp.com/'
+        'PORT':'5432'
     }
 }
 
