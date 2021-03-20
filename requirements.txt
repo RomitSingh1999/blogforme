@@ -24,7 +24,7 @@ django-oauth-toolkit==1.3.2
 django-rest-framework-social-oauth2==1.1.0
 django-selenium==0.9.8
 django-settings==1.3.12
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 docutils==0.16
 EasyProcess==0.3
 future==0.18.2
