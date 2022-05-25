@@ -54,7 +54,7 @@ psycopg2==2.8.4
 public==2019.4.13
 pycodestyle==2.6.0
 pycparser==2.20
-Pygments==2.6.1
+Pygments==2.7.4
 PyJWT==2.4.0
 pylint==2.4.4
 pyparsing==2.4.7
