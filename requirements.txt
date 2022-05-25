@@ -55,7 +55,7 @@ public==2019.4.13
 pycodestyle==2.6.0
 pycparser==2.20
 Pygments==2.6.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylint==2.4.4
 pyparsing==2.4.7
 pyquery==1.4.1
