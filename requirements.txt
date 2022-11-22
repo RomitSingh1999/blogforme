@@ -47,7 +47,7 @@ oauth2-provider==0.0
 oauthlib==3.1.0
 opencv-python==4.3.0.36
 packaging==20.4
-Pillow==7.1.0
+Pillow==9.3.0
 pip-review==1.1.0
 pkginfo==1.5.0.1
 psycopg2==2.8.4
